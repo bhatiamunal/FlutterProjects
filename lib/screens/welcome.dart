@@ -10,19 +10,19 @@ class _welcomeScreenState extends State {
   var _selectedIndex;
   @override
   Widget build(BuildContext context) {
-    return  DefaultTabController(
-      length: 3,  // Added
+    return DefaultTabController(
+      length: 3, // Added
       initialIndex: 0, //Added
       child: Scaffold(
         appBar: AppBar(
-            title: Text("World of munal bhatia"),
-            bottom: const TabBar(
-              tabs: [
+          title: Text("Welcome"),
+          bottom: const TabBar(
+            tabs: [
               Tab(icon: Icon(Icons.directions_car)),
               Tab(icon: Icon(Icons.directions_transit)),
               Tab(icon: Icon(Icons.directions_bike)),
             ],
-      ),
+          ),
         ),
         body: const TabBarView(
           children: [
