@@ -82,7 +82,14 @@ class _welcomeScreenState extends State {
               ),
               ListTile(
                 title: const Text('Card With List View'),
-                selected: _selectedIndex == 4,
+                selected: _selectedIndex == 5,
+                onTap: () {
+                  Navigator.pushNamed(context, '/Card');
+                },
+              ),
+              ListTile(
+                title: const Text('Camera'),
+                selected: _selectedIndex == 6,
                 onTap: () {
                   Navigator.pushNamed(context, '/Card');
                 },

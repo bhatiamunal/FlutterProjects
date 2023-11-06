@@ -25,6 +25,7 @@ void main() {
       '/gridView': (context) => gridView(),
       '/bottomdrower': (context) => bottomdrower(),
       '/Card': (context) => CardWithListView(),
+      '/camera': (context) => CardWithListView(),
     },
   ));
 }
