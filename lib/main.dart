@@ -8,6 +8,7 @@ import './screens/List.dart';
 import './screens/gridView.dart';
 import './screens/bottom_drower.dart';
 import './screens/CardWithListView.dart';
+import './screens/camera.dart';
 void main() {
   runApp(MaterialApp(
     title: 'Help Template',
@@ -25,7 +26,8 @@ void main() {
       '/gridView': (context) => gridView(),
       '/bottomdrower': (context) => bottomdrower(),
       '/Card': (context) => CardWithListView(),
-      '/camera': (context) => CardWithListView(),
+      '/camera': (context) => CameraScreen(),
+      '/form': (context) => CameraScreen(),
     },
   ));
 }
